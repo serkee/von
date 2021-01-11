@@ -1,3 +1,5 @@
+/* test */
+
 body{min-width:auto;}
 .inner{width:auto; max-width:1600px;}
 .header{background:#fff; }
@@ -78,7 +80,7 @@ body{min-width:auto;}
 .contents-area .accordion-area .accordion-form .tit .row .cell + .cell{padding-left:3.5rem;}
 .contents-area .accordion-area .accordion-form .con{border:0; background:#FBF8F4; padding:3rem 6rem 3rem 27.5rem; border-top: 1px solid #999;}
 .contents-area .accordion-area .accordion-form .con > p{font-size: 1.7rem; font-weight: 200; word-break: keep-all; line-height: 2.7rem; position: relative; padding-left:5.5rem;}
-.contents-area .accordion-area .accordion-form .con > p::before{content: "A"; display: inline-block; text-indent: -2rem;font-weight: normal; color: #FD8204}
+.contents-area .accordion-area .accordion-form .con > p::before{content: "A"; display: inline-block; text-indent: -2rem;font-weight: normal; color: #FD8204}   
 
 /* form */
 .select-form{width:100%; display: inline-block; box-sizing: border-box;}
