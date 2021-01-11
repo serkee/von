@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+	<title>V ON Class</title>
+    <style>
+        * {box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;}
+        html {margin:0;padding:0; }
+        body {margin:0; padding:0;font-size:14px;line-height:1.5;color:#464646;letter-spacing:0;-webkit-text-size-adjust:none;}
+        div,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,p,form,fieldset,input,table,tr,th,td,button,textarea,select {margin:0;padding:0;}
+        h1, h2, h3, h4, h5, h6{font-size:100%;font-weight:normal}
+        img {border:0;vertical-align:top;}
+        hr { display: none;}
+        ul,ol,dl,dt,dd,li {list-style:none;}
+        table, th, td {border-collapse:collapse;border-spacing:0;font-weight: normal;}
+        caption {display:block;text-indent:-9999em;overflow:hidden;height:0;font-size:0;line-height:0;}
+        fieldset, blockquote, iframe, button {border:none;}
+        i, em, u, cite {font-style:normal;}
+        strong,em, b {font-weight:700; font-size: 15px;}
+        a {color:#464646;}
+        button {background:transparent;cursor:pointer;vertical-align:middle;margin:0;padding:0;font-size:14px;line-height:1.5;color:#464646;letter-spacing:0;-webkit-text-size-adjust:none;}
+        section, nav, article, aside, header, footer, main {display:block;}
+        span {font-size: 13px;}
+
+        table {width:100%; max-width:1200px; margin:10px auto 50px; border-top:2px solid #838383; text-align: center;}
+        th {padding:10px; background-color: #fcfcfc; color: #4d4c48; font-weight:700; border-left:1px solid #ebeced;}
+        th:first-child {border-left:none;}
+        tr {border-bottom:1px solid #ebeced;}
+		tr:hover{background:#FAE1A9;}
+        td { padding: 10px; color: #757575; border-left:1px solid #ebeced; text-align:left;}
+        td:first-child {border-left:none;}
+        td a {color: #757575;}
+        h1 {font-size:25px; text-align:center; color:#f26521; margin:30px 0;}
+        h1 span {font-size:20px;}
+        h2 {width:95%; margin:0 auto; font-size:18px; font-weight: 700; color: #000;}
+        .red {color: #ff0000;}
+        .blue {color:#0000ff;}
+        .tl {text-align: left;}
+		.tr {text-align: right;}
+		.com{color:#ff0000; text-decoration:underline}
+		.end{color:#0000ff; text-decoration:underline; cursor:pointer}
+		td > strong{display:block;}
+		td > a{text-decoration:none; cursor:default}
+		td > a > em {font-weight:normal}
+		td > a > strong{display:none;}
+		body {padding:0 20px}
+		tr > td:first-child > strong{display:none;}
+		@media all and (max-width:768px){
+			.col-hidden{width:0; display:none;}
+			
+			td > a > em{display:none}
+			td > a > strong{display:block; font-size:13px; line-height:39px;}
+			td{padding:0 10px}
+		}
+		h1 + div {max-width: 1200px; margin:0 auto;}
+    </style>
+  </head>
+  <body>
+    
+		<h1>V ON Class 메뉴구조도</h1>
+		<div class="tr">
+			<!-- <a href="http://work2.namo.zone/templates/admin/index.html" target="_blank">통합관리자 리스트</a> -->
+			<span class="" style="text-decoration:none; color:#ff0000">PC만 완성</span>
+			<span class="" style="text-decoration:none; color:#0000ff">완료</span>
+		</div>
+		<table>
+			<caption>msmart 관리자 메뉴구조도</caption>
+			<colgroup>
+				<col style="width:13%;" class="col-hidden">
+				<col style="width:16%;" class="col-hidden">
+				<col style="width:10%;" class="col-hidden">
+				<col style="width:5%;" class="col-hidden">
+				<col style="width:14%;">
+				<col style="width:auto" class="col-hidden">
+			</colgroup>
+			<thead>
+			<tr>
+				<th class="col-hidden" class="col-hidden" scope="col">1DEPTH</th>
+				<th class="col-hidden" scope="col">2DEPTH</th>
+				<th class="col-hidden" scope="col">3DEPTH</th>
+				<th class="col-hidden" scope="col">순위</th>
+				<th scope="col">URL</th>
+				<th class="col-hidden" scope="col">비고</th>
+			</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="col-hidden">메인</td>
+					<td class="col-hidden">pc</td>
+					<td class="col-hidden"></td>
+					<td class="col-hidden">0</td>
+					<td>
+						<a href="/page/main_pc.html" target="_blank" class="end"><em>main_pc.html</em><strong>메인 > pc</strong></a>
+					</td>
+					<td class="col-hidden">0108수정<br />수강지역찾기는 단계별 숨김처리 확인부탁드립니다.</td>
+				</tr>
+				<tr>
+					<td class="col-hidden"></td>
+					<td class="col-hidden">Mobile</td>
+					<td class="col-hidden"></td>
+					<td class="col-hidden">5</td>
+					<td>
+						<a href="/page/main_m.html" target="_blank" class=""><em>main_m.html</em><strong>메인 > Mobile</strong></a>
+					</td>
+					<td class="col-hidden">디자인 컨펌X</td>
+				</tr>
+				<tr>
+					<td class="col-hidden">V ON Class란?</td>
+					<td class="col-hidden"></td>
+					<td class="col-hidden"></td>
+					<td class="col-hidden">6</td>
+					<td>
+						<a href="/page/vOnClass.html" target="_blank" class=""><em>vOnClass.html</em><strong>V ON Class란?</strong></a>
+					</td>
+					<td class="col-hidden">모바일디자인 수급X</td>
+				</tr>
+				<tr>
+					<td class="col-hidden">커리큘럼</td>
+					<td class="col-hidden">통합로드맵</td>
+					<td class="col-hidden"></td>
+					<td class="col-hidden">8</td>
+					<td>
+						<a href="/page/curriculum.html" target="_blank" class=""><em>curriculum.html</em><strong>커리큘럼 > 통합로드맵</strong></a>
+					</td>
+					<td class="col-hidden">모바일디자인 수급X</td>
+				</tr>
+				<tr>
+					<td class="col-hidden">강사소개</td>
+					<td class="col-hidden">V ON 청담어학원 강사</td>
+					<td class="col-hidden"></td>
+					<td class="col-hidden">8</td>
+					<td>
+						<a href="/page/teacher1.html" target="_blank" class=""><em>teacher1.html</em><strong>강사소개 > V ON 청담어학원 강사</strong></a>
+					</td>
+					<td class="col-hidden">모바일디자인 수급X</td>
+				</tr>
+				<tr>
+					<td class="col-hidden"></td>
+					<td class="col-hidden">V ON April어학원 강사</td>
+					<td class="col-hidden"></td>
+					<td class="col-hidden">7</td>
+					<td>
+						<a href="/page/teacher2.html" target="_blank" class=""><em>teacher2.html</em><strong>강사소개 > V ON April어학원 강사</strong></a>
+					</td>
+					<td class="col-hidden">모바일디자인 수급X</td>
+				</tr>
+				<tr>
+					<td class="col-hidden">V ON 브랜드</td>
+					<td class="col-hidden">V ON 청담어학원</td>
+					<td class="col-hidden">학습구성</td>
+					<td class="col-hidden">7</td>
+					<td>
+						<a href="/page/brand1_1.html" target="_blank" class=""><em>brand1_1.html</em><strong>V ON 브랜드 > V ON 청담어학원 > 학습구성</strong></a>
+					</td>
+					<td class="col-hidden">모바일디자인 수급X</td>
+				</tr>
+				<tr>
+					<td class="col-hidden"></td>
+					<td class="col-hidden"></td>
+					<td class="col-hidden">프로그램</td>
+					<td class="col-hidden">7</td>
+					<td>
+						<a href="/page/brand1_2.html" target="_blank" class=""><em>brand1_2.html</em><strong>V ON 브랜드 > V ON 청담어학원 > 프로그램</strong></a>
+					</td>
+					<td class="col-hidden">모바일디자인 수급X</td>
+				</tr>
+				<tr>
+					<td class="col-hidden"></td>
+					<td class="col-hidden"></td>
+					<td class="col-hidden">학습시스템</td>
+					<td class="col-hidden">7</td>
+					<td>
+						<a href="/page/brand1_3.html" target="_blank" class=""><em>brand1_3.html</em><strong>V ON 브랜드 > V ON 청담어학원 > 학습시스템</strong></a>
+					</td>
+					<td class="col-hidden">모바일디자인 수급X</td>
+				</tr>
+				<tr>
+					<td class="col-hidden"></td>
+					<td class="col-hidden">V ON April어학원</td>
+					<td class="col-hidden">Overview</td>
+					<td class="col-hidden">7</td>
+					<td>
+						<a href="/page/brand2_1.html" target="_blank" class=""><em>brand2_1.html</em><strong>V ON 브랜드 > V ON April어학원 > Overview</strong></a>
+					</td>
+					<td class="col-hidden">모바일디자인 수급X</td>
+				</tr>
+				<tr>
+					<td class="col-hidden"></td>
+					<td class="col-hidden"></td>
+					<td class="col-hidden">학습구성</td>
+					<td class="col-hidden">7</td>
+					<td>
+						<a href="/page/brand2_2.html" target="_blank" class=""><em>brand2_2.html</em><strong>V ON 브랜드 > V ON April어학원 > 학습구성</strong></a>
+					</td>
+					<td class="col-hidden">모바일디자인 수급X</td>
+				</tr>
+				<tr>
+					<td class="col-hidden"></td>
+					<td class="col-hidden"></td>
+					<td class="col-hidden">프로그램</td>
+					<td class="col-hidden">7</td>
+					<td>
+						<a href="/page/brand2_3.html" target="_blank" class=""><em>brand2_3.html</em><strong>V ON 브랜드 > V ON April어학원 > 프로그램</strong></a>
+					</td>
+					<td class="col-hidden">모바일디자인 수급X</td>
+				</tr>
+				<tr>
+					<td class="col-hidden"></td>
+					<td class="col-hidden"></td>
+					<td class="col-hidden">학습시스템</td>
+					<td class="col-hidden">7</td>
+					<td>
+						<a href="/page/brand2_4.html" target="_blank" class=""><em>brand2_4.html</em><strong>V ON 브랜드 > V ON April어학원 > 학습시스템</strong></a>
+					</td>
+					<td class="col-hidden">모바일디자인 수급X</td>
+				</tr>
+				<tr>
+					<td class="col-hidden">V ON Class 수강하기</td>
+					<td class="col-hidden">이용가이드</td>
+					<td class="col-hidden"></td>
+					<td class="col-hidden">1</td>
+					<td>
+						<a href="/page/guide.html" target="_blank" class="com"><em>guide.html</em><strong>V ON Class 수강하기 > 이용가이드</strong></a>
+					</td>
+					<td class="col-hidden">0108수정<br />모바일디자인 수급X</td>
+				</tr>
+				<tr>
+					<td class="col-hidden"></td>
+					<td class="col-hidden">V ON 가능 지역 찾기</td>
+					<td class="col-hidden"></td>
+					<td class="col-hidden">1</td>
+					<td>
+						<a href="/page/findLocal.html" target="_blank" class="com"><em>findLocal.html</em><strong>V ON Class 수강하기 > V ON 가능 지역 찾기</strong></a>
+					</td>
+					<td class="col-hidden">모바일디자인 수급X</td>
+				</tr>
+				<tr>
+					<td class="col-hidden"></td>
+					<td class="col-hidden">입학절차</td>
+					<td class="col-hidden">입학절차</td>
+					<td class="col-hidden">1</td>
+					<td>
+						<a href="/page/entrance.html" target="_blank" class="com"><em>entrance.html</em><strong>V ON Class 수강하기 > 입학절차</strong></a>
+					</td>
+					<td class="col-hidden">모바일디자인 수급X</td>
+				</tr>
+				<tr>
+					<td class="col-hidden"></td>
+					<td class="col-hidden"></td>
+					<td class="col-hidden">시험예약</td>
+					<td class="col-hidden">1</td>
+					<td>
+						<a href="/page/reservation.html" target="_blank" class=""><em>reservation.html</em><strong>V ON Class 수강하기 > 입학절차 > 시험예약</strong></a>
+					</td>
+					<td class="col-hidden">pc,모바일디자인 수급X</td>
+				</tr>
+				<tr>
+					<td class="col-hidden">커뮤니티</td>
+					<td class="col-hidden">수강후기</td>
+					<td class="col-hidden">목록</td>
+					<td class="col-hidden">1</td>
+					<td>
+						<a href="/page/review_list.html" target="_blank" class="com"><em>review_list.html</em><strong>커뮤니티 > 수강후기 > 목록</strong></a>
+					</td>
+					<td class="col-hidden">모바일디자인 수급X</td>
+				</tr>
+				<tr>
+					<td class="col-hidden"></td>
+					<td class="col-hidden"></td>
+					<td class="col-hidden">읽기</td>
+					<td class="col-hidden">1</td>
+					<td>
+						<a href="/page/review_view.html" target="_blank" class=""><em>review_view.html</em><strong>커뮤니티 > 수강후기 > 읽기</strong></a>
+					</td>
+					<td class="col-hidden">(검토중)pc, 모바일디자인 수급X</td>
+				</tr>
+				<tr>
+					<td class="col-hidden"></td>
+					<td class="col-hidden"></td>
+					<td class="col-hidden">수정하기</td>
+					<td class="col-hidden">1</td>
+					<td>
+						<a href="/page/review_modify.html" target="_blank" class=""><em>review_modify.html</em><strong>커뮤니티 > 수강후기 > 수정하기</strong></a>
+					</td>
+					<td class="col-hidden">(검토중)pc, 모바일디자인 수급X</td>
+				</tr>
+				<tr>
+					<td class="col-hidden"></td>
+					<td class="col-hidden">1:1문의</td>
+					<td class="col-hidden"></td>
+					<td class="col-hidden">1</td>
+					<td>
+						<a href="/page/question.html" target="_blank" class=""><em>question.html</em><strong>커뮤니티 > 1:1문의</strong></a>
+					</td>
+					<td class="col-hidden">PC, 모바일디자인 수급X</td>
+				</tr>
+				<tr>
+					<td class="col-hidden">이벤트</td>
+					<td class="col-hidden">목록</td>
+					<td class="col-hidden"></td>
+					<td class="col-hidden">4</td>
+					<td>
+						<a href="/page/event_list.html" target="_blank" class=""><em>event_list.html</em><strong>이벤트 > 목록</strong></a>
+					</td>
+					<td class="col-hidden">모바일디자인 수급X</td>
+				</tr>
+				<tr>
+					<td class="col-hidden"></td>
+					<td class="col-hidden">읽기</td>
+					<td class="col-hidden"></td>
+					<td class="col-hidden">4</td>
+					<td>
+						<a href="/page/event_view.html" target="_blank" class=""><em>event_view.html</em><strong>이벤트 > 읽기</strong></a>
+					</td>
+					<td class="col-hidden">모바일디자인 수급X</td>
+				</tr>
+				<tr>
+					<td class="col-hidden">MyPage</td>
+					<td class="col-hidden">메인</td>
+					<td class="col-hidden"></td>
+					<td class="col-hidden">3</td>
+					<td>
+						<a href="/page/mypage.html" target="_blank" class=""><em>mypage.html</em><strong>MyPage > 메인</strong></a>
+					</td>
+					<td class="col-hidden">모바일디자인 수급X</td>
+				</tr>
+			</tbody>
+		</table>
+  </body>
+</html>

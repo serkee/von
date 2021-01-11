@@ -1,0 +1,91 @@
+@media all and (max-width:1600px){
+	.header > .inner{padding-left:20px}
+	.header .util-area{padding-right:20px}
+
+	.contents-area .inner{padding-left: 2rem; padding-right: 2rem;}
+}
+
+@media all and (max-width:1200px){
+	.header .navi-area .navi .list{bottom:220px;}
+
+	.header .navi-area .etc-area{bottom:60px; left:0; text-align: center;}
+	.header .navi-area .etc-area .copy{display: none;}
+
+	.header .navi-area .etc-area .select-area{width: 286px; display: inline-block; margin-right: 270px;}
+	.header .navi-area .etc-area .select-area > select{ height: 44px; }
+	.header .navi-area .etc-area .btn-area{margin-bottom:30px;}
+	.header .navi-area .etc-area .btn-area > a{font-size: 20px}
+	.header .navi-area .sns-area{z-index: 2; left: 50%;margin-left: 40px;bottom: 61px;}
+	.header .navi-area .sns-area > strong{display: none;}
+
+	.header .navi-area .navi .list > ul{margin-top:30px}
+	.header .navi-area .navi .list > ul.top-1{margin-top:-64px}
+	.header .navi-area .navi .list > ul.top-2{margin-top:-148px}
+	.header .navi-area .navi .list > ul > li > a{font-size: 35px; line-height: 75px;}
+	.header .navi-area .navi .list > ul > li:nth-child(3):hover > ul{height:84px; padding-bottom:10px}
+	.header .navi-area .navi .list > ul > li:nth-child(4):hover > ul{height:84px; padding-bottom:10px}
+	.header .navi-area .navi .list > ul > li:nth-child(5):hover > ul{height:126px; padding-bottom:10px}
+	.header .navi-area .navi .list > ul > li:nth-child(6):hover > ul{height:84px; padding-top:10px}
+	.header .navi-area .navi .list > ul > li:nth-child(8):hover > ul{height:168px; padding-top:10px}
+	.header .navi-area .navi .list > ul > li > ul > li > a{font-size:20px; line-height: 42px;}
+	
+}
+
+@media all and (max-width:900px){
+	.header .link-area{margin-left:30px;}
+	.header .link-area > a{letter-spacing: -.4px}
+	.header .link-area > a + a{margin-left:26px;}
+	.header .util-area{width: 210px;}
+}
+
+@media all and (max-width:768px){
+	.header{height:50px;}
+	.header h1 > a{width:70px; height: 23px; margin-top: 15px;}
+
+	.header .util-area{height:50px;width:100px; padding-right:0}
+	.header .util-area > a{}
+	.header .util-area > a.cs{display: none;}
+	.header .util-area > a{width:40px; height: 40px;    background-size: 30px; margin-top:5px;}
+	.header .util-area > a.ham{margin-left:0px; margin-right:5px;}
+	.header .util-area > a.ham:before, .header .util-area > a.ham:after, .header .util-area > a.ham > i{width:20px; height:2px; margin-left:-10px}
+	.header .util-area > a.ham:before{margin-top: -8px;}
+	.header .util-area > a.ham:after{margin-top:6px;}
+	.header .util-area > a.ham.on:before,
+	.header .util-area > a.ham.on:after{margin-top:-1px;}
+	.header .link-area{display: none;}
+	.header .navi-area{top:50px}
+	.header .navi-area .navi .list{bottom:110px;}
+	.header .navi-area .etc-area{bottom:30px;}
+	.header .navi-area .etc-area .select-area{width: 143px; margin-right: 150px;}
+	.header .navi-area .etc-area .select-area > select{ height: 27px; font-size: 10px; padding-left: 14px;}
+	.header .navi-area .etc-area .btn-area{margin-bottom:15px;}
+	.header .navi-area .etc-area .btn-area > a{font-size: 10px}
+	.header .navi-area .etc-area .btn-area > a + a:before{margin-left:10px; margin-right: 10px;}
+	.header .navi-area .sns-area{bottom:28px; margin-left: 17px;}
+	.header .navi-area .sns-area .btn-sns{width: 28px;height: 28px;background-size: cover !important;}
+	.header .navi-area .sns-area .btn-sns + .btn-sns{margin-left:7px;}
+	.header .navi-area .navi .list > ul{width:180px;}
+	.header .navi-area .navi .list > ul.top-1{margin-top:-40px}
+	.header .navi-area .navi .list > ul.top-2{margin-top:-100px}
+	.header .navi-area .navi .list > ul > li > a{font-size: 20px; line-height: 40px;}
+	.header .navi-area .navi .list > ul > li > ul > li > a{font-size:15px; line-height: 30px;}
+	.header .navi-area .navi .list > ul > li:nth-child(3):hover > ul{height:60px; padding-bottom:10px}
+	.header .navi-area .navi .list > ul > li:nth-child(4):hover > ul{height:60px; padding-bottom:10px}
+	.header .navi-area .navi .list > ul > li:nth-child(5):hover > ul{height:90px; padding-bottom:10px}
+	.header .navi-area .navi .list > ul > li:nth-child(6):hover > ul{height:60px; padding-top:10px}
+	.header .navi-area .navi .list > ul > li:nth-child(8):hover > ul{height:120px; padding-top:10px}
+
+	.footer{padding-bottom:20px;}
+	.footer .inner{padding-top:25px;}
+	.footer .logo{width:81px; height: 24px; margin-bottom:13px;}
+	.footer ul > li > a{font-size:11px;}
+	.footer ul > li{margin:0 13px;}
+	.footer ul > li:last-of-type{display:none;}
+	.footer .copy{font-size:10px; margin-top:10px;}
+	.footer .btn-top{width:35px; height: 35px; font-size:10px;}
+
+	.container{padding-top:50px;}
+	.head-area > .inner{overflow: hidden;}
+}
+
+

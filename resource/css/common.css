@@ -1,0 +1,225 @@
+
+/***********************************************************
+	02- Common Class : 01. 레이아웃
+***********************************************************/
+
+*{font-family: 'Noto Sans KR', sans-serif;}
+
+/* margin */
+.mt0 {margin-top:0 !important}
+.mt5 {margin-top:.5rem !important}
+.mt10 {margin-top:1rem !important}
+.mt15 {margin-top:1.5rem !important}
+.mt20 {margin-top:2rem !important}
+.mt25 {margin-top:2.5rem !important}
+.mt30 {margin-top:3rem !important}
+.mt40 {margin-top:4rem !important}
+.mt50 {margin-top:5rem !important}
+
+.mr0 {margin-right:0 !important}
+.mr5 {margin-right:.5rem !important}
+.mr10 {margin-right:1rem !important}
+.mr15 {margin-right:1.5rem !important}
+.mr20 {margin-right:2rem !important}
+.mr25 {margin-right:2.5rem !important}
+.mr30 {margin-right:3rem !important}
+.mr40 {margin-right:4rem !important}
+.mr50 {margin-right:5rem !important}
+
+.mb0 {margin-bottom:0 !important}
+.mb3 {margin-bottom:.3rem !important}
+.mb5 {margin-bottom:.5rem !important}
+.mb10 {margin-bottom:1rem !important}
+.mb15 {margin-bottom:1.5rem !important}
+.mb20 {margin-bottom:2rem !important}
+.mb25 {margin-bottom:2.5rem !important}
+.mb30 {margin-bottom:3rem !important}
+.mb40 {margin-bottom:4rem !important}
+.mb50 {margin-bottom:5rem !important}
+
+.ml0 {margin-left:0 !important}
+.ml5 {margin-left:.5rem !important}
+.ml10 {margin-left:1rem !important}
+.ml15 {margin-left:1.5rem !important}
+.ml20 {margin-left:2rem !important}
+.ml25 {margin-left:2.5rem !important}
+.ml30 {margin-left:3rem !important}
+.ml40 {margin-left:4rem !important}
+.ml50 {margin-left:5rem !important}
+
+/* padding */
+.p0 {padding:0 !important}
+.p5 {padding:.5rem !important}
+.p10 {padding:1rem !important}
+.p15 {padding:1.5rem !important}
+.p20 {padding:2rem !important}
+.p25 {padding:2.5rem !important}
+.p30 {padding:3rem !important}
+.p40 {padding:4rem !important}
+.p50 {padding:5rem !important}
+
+.pt0 {padding-top:0 !important}
+.pt5 {padding-top:.5rem !important}
+.pt10 {padding-top:1rem !important}
+.pt15 {padding-top:1.5rem !important}
+.pt20 {padding-top:2rem !important}
+.pt25 {padding-top:2.5rem !important}
+.pt30 {padding-top:3rem !important}
+.pt40 {padding-top:4rem !important}
+.pt50 {padding-top:5rem !important}
+
+.pr0 {padding-right:0 !important}
+.pr5 {padding-right:.5rem !important}
+.pr10 {padding-right:1rem !important}
+.pr15 {padding-right:1.5rem !important}
+.pr20 {padding-right:2rem !important}
+.pr25 {padding-right:2.5rem !important}
+.pr30 {padding-right:3rem !important}
+.pr40 {padding-right:4rem !important}
+.pr50 {padding-right:5rem !important}
+
+.pb0 {padding-bottom:0 !important}
+.pb5 {padding-bottom:.5rem !important}
+.pb10 {padding-bottom:1rem !important}
+.pb15 {padding-bottom:1.5rem !important}
+.pb20 {padding-bottom:2rem !important}
+.pb25 {padding-bottom:2.5rem !important}
+.pb30 {padding-bottom:3rem !important}
+.pb40 {padding-bottom:4rem !important}
+.pb50 {padding-bottom:5rem !important}
+
+.pl0 {padding-left:0 !important}
+.pl5 {padding-left:.5rem !important}
+.pl10 {padding-left:1rem !important}
+.pl15 {padding-left:1.5rem !important}
+.pl20 {padding-left:2rem !important}
+.pl25 {padding-left:2.5rem !important}
+.ml30 {padding-left:3rem !important}
+.pl40 {padding-left:4rem !important}
+.pl50 {padding-left:5rem !important}
+
+/* font-size */
+.fs12{font-size: 1.2rem}
+.fs16{font-size: 1.6rem}
+.fs20{font-size: 2rem}
+.fs24{font-size: 2.4rem}
+
+/* float */
+.fl{float:left !important}
+.fr{float:right !important}
+.fn{float:none !important}
+.pr{position: relative; }
+.pa{position: absolute; }
+.par{position: absolute;right:0}
+.fl > a + a{margin-left:.3rem}
+.fr > a + a{margin-left:.3rem}
+
+/* 테이블 안 처리 */
+.pr .par a.btn-gcm{margin-top:-2px}
+
+
+/* float 해제 */
+.clear:after {content:''; display:block; clear:both;}
+
+/* inline-block */
+.block {display:block !important;}
+.inline-block {display:inline-block !important;}
+
+/* display */
+.hide{display:none !important;}
+.show{display:inline-block !important;}
+.table-cell{display: table-row !important;}
+.txt-hide{width:1px; height:1px; overflow: hidden; text-indent: -9999px; background: transparent; display:inline-block;}
+
+/* width */
+.w100{width: 10rem !important;}
+.w150{width: 15rem !important;}
+.w200{width: 20rem !important;}
+
+/* 디자인탭에서만 보이는 요소 */
+.txt-hide{width: 1px;height:1px;overflow: hidden; position: absolute; z-index: -1;}
+
+
+/***********************************************************
+	03- Common Class : 텍스트 및 정렬
+***********************************************************/
+
+/* text-align */
+.tar {text-align:right !important; vertical-align: middle;}
+.tal {text-align:left !important; vertical-align: middle;}
+.tac {text-align:center !important; vertical-align: middle;}
+
+/* text-color */
+.c-blue {color:#02409c !important;}
+.c-red {color:#ed1c24 !important;}
+.c-org {color:#FD9604 !important;}
+.c-gray {color:#666 !important;}
+.c-green {color:#23b163 !important;}
+.c-darkgreen {color:#10a0b6 !important;}
+.c-purple {color:#6d3cae !important;}
+.c-yellow {color:#d3b455 !important;}
+
+/* text-style */
+.txt-bold {font-weight:bold !important;}
+.txt-normal {font-weight:normal !important}
+.txt-italic {font-style:italic !important}
+.txt-underline {text-decoration:underline !important}
+.txt-unit {display:inline-block;vertical-align: middle;margin-top: -1px;}
+
+
+
+/* a링크 */
+.a-link{color:#a27b33; text-decoration: underline;}
+.a-link:hover{text-decoration: underline}
+
+/***********************************************************
+	04- Common Class : 보더
+***********************************************************/
+
+/* border */
+.bl0{border-left:0 !important;}
+.br0{border-right:0 !important;}
+.bt0{border-top:0 !important;}
+.bb0{border-bottom:0 !important;}
+
+.select-wrap{display: inline-block; vertical-align: middle;}
+.ui-widget{font-family: inherit;}
+
+/* btn */
+.btn{display: inline-block; height:4rem; line-height: 3.8rem; border: 1px solid #FD8204; background: #FD8204; color: #fff; box-sizing: border-box; font-size: 1.6rem; text-align: center; min-width:25rem; padding: 0 2rem}
+.btn:hover{background: #E87500;}
+.btn.outline{border-color:#BABABA; background: transparent; color:#fff;}
+.btn.outline:hover{background:rgba(255,255,255,.3); color: #333}
+.btn.round{border-radius: .5rem}
+.btn.white{background:#fff; color: #333; border-color: #fff;}
+.btn.white:hover{color: #E87500}
+.btn.white.outline{background: transparent; color: #fff;}
+.btn.white.outline:hover{background:rgba(255,255,255,.3); color: #333}
+
+.btn1{display: inline-block; height:5rem; line-height: 4.8rem; border: 2px solid #FD8204; background: #FD8204; color: #fff; box-sizing: border-box; font-size: 1.6rem; text-align: center; min-width:25rem; padding: 0 2rem}
+.btn1:hover{background: #E87500;}
+.btn1.outline{border-color:#BABABA; background: transparent; color:#fff;}
+.btn1.outline:hover{background:rgba(255,255,255,.3); color: #333}
+.btn1.round{border-radius: .5rem}
+.btn1.white{background:#fff; color: #333; border-color: #fff;}
+.btn1.white:hover{color: #E87500}
+.btn1.white.outline{background: transparent; color: #fff;}
+.btn1.white.outline:hover{background:rgba(255,255,255,.3); color: #333}
+.btn1.search{background: #84c035; min-width:12rem; border-color:#84c035;}
+.btn1.search:hover{background:#78b42a; border-color:#78b42a}
+.btn1.search:before{content: ""; display: inline-block; width:2.7rem; height: 2.7rem; background: url(../images/common/ico_search.png) no-repeat; background-size: 100%; vertical-align: middle; margin-top: -0.6rem;}
+
+.btn2{display: inline-block; height:6rem; line-height: 5.8rem; border: 2px solid #FD8204; background: #FD8204; color: #fff; box-sizing: border-box; font-size: 2rem; text-align: center; min-width:25rem; padding: 0 2rem}
+.btn2:hover{background: #E87500;}
+.btn2.outline{border-color:#BABABA; background: transparent; color:#fff;}
+.btn2.outline:hover{background:rgba(255,255,255,.3); color: #333}
+.btn2.round{border-radius: .5rem}
+.btn2.white{background:#fff; color: #333; border-color: #fff;}
+.btn2.white:hover{color: #E87500}
+.btn2.white.outline{background: transparent; color: #fff; border:2px solid #fff;}
+.btn2.white.outline:hover{background:rgba(255,255,255,.3); color: #333}
+
+.txt-help{font-size: 1.5rem;}
+.txt-help:before{content: '*'; display: inline-block; vertical-align: middle; margin: -.1rem .3rem 0 0;}
+
+.select-form > .ui-selectmenu-button{width: 100% !important; box-sizing: border-box;}
